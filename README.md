@@ -8,5 +8,5 @@ The converter will only get the x, y, and pressure data.
 
 An example of a file that could be inputted into this application can be found [here](/TabletHexConverter/Documents/example_serial_out.txt). It is important to note that the converter looks for the byte `FF` and starts decoding everything past that point. `FF` is sent by the output device during testing.
 
-Here is what the example input file would be decompiled to. The format is (X, Y) Pressure.
+Here is what the example file would be decompiled to. The format is (X, Y) Pressure.
 ![](/TabletHexConverter/Documents/decompiler_output.jpg)
